@@ -9,7 +9,7 @@ const Table = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/schedule')
+        fetch('https://dry-ravine-60449.herokuapp.com/schedule')
             .then((res) => res.json())
             .then(data => setSchedule(data))
     }, []);

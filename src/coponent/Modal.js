@@ -10,7 +10,7 @@ const Modal = ({ setShowModal }) => {
         },
         onSubmit: values => {
             console.log(values);
-            fetch('http://localhost:5000/addSchedule', {
+            fetch('https://dry-ravine-60449.herokuapp.com/addSchedule', {
                 method: 'POST', // or 'PUT'
                 headers: {
                     'Content-Type': 'application/json',
